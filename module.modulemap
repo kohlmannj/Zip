@@ -1,0 +1,5 @@
+module Minizip [system][extern_c] {
+  header "minizip/unzip.h"
+  header "minizip/zip.h"
+  export *
+}
