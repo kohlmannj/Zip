@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .target(
             name: "Zip",
-            path: ".",
             dependencies: [],
+            path: ".",
             sources: ["Zip"]),
     ]
 )
